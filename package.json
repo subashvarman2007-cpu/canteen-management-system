@@ -1,0 +1,22 @@
+{
+  "name": "sjc-canteen",
+  "version": "1.0.0",
+  "description": "SJC Canteen — St. Joseph's College, Trichy canteen management app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "build": "echo \"No build step needed\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.4",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
